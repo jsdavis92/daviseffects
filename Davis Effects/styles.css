@@ -1,0 +1,27 @@
+html, body {
+    background-color: #C3E2C2;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+
+}
+
+
+.header {
+ margin: 20% 0 10% 0;
+}
+
+
+#header-title {
+    font-family: "archivo black", "sans-serif";
+    font-size: 7em;
+    letter-spacing: 14px;
+    align-items: center;
+}
+
+#header-subtitle {
+    font-family: "archivo black", "sans-serif";
+    font-size: 2em;
+    letter-spacing: 10px;
+}
