@@ -4,7 +4,6 @@ html, body {
     justify-content: center;
     align-items: center;
     height: auto;
-    font-size: x-large;
 
 }
 
@@ -29,3 +28,84 @@ html, body {
     letter-spacing: 10px;
 }
 
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+
+
+@media screen and (max-width: 600px) {}
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+    
+
+    #header-title {
+        font-size: 5em;
+            }
+    #header-subtitle {
+        font-size: 1.5em;
+        letter-spacing: 10px;
+    }
+    
+    }
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+        .header {
+            margin-top: 20%;
+        }
+        #header-title {
+            font-size: 3em;
+        }
+        #header-subtitle {
+            font-size: 1.3em;
+            letter-spacing: 2px;
+        }
+    
+    }
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {
+        #header-title {
+            font-size: 3em;
+        }
+        
+        #header-subtitle {
+            font-size: 1.5em;
+            letter-spacing: 10px;
+        }
+    
+    }
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {
+
+        #header-title {
+            font-size: 3em;
+        }
+        #header-subtitle {
+            font-size: 1.5em;
+            letter-spacing: 10px;
+        }
+    
+    
+    }
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+        .header {
+            margin: 10% 0 10% 0;
+        }
+        #header-title {
+            font-size: 7em;
+        }
+        #header-subtitle {
+            font-size: 2em;
+            letter-spacing: 7px;
+        }
+    
+    
+    }
